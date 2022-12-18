@@ -15,13 +15,13 @@ contract MyCounter{
     }
 
     function inc() public {
-        count +=1;
+        count +=1; // increase the current value
 
     }
 
 
     function dec() public{
-        count -= 1;
+        count -= 1; //decrease the current value
     }
 
 
